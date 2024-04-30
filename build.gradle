@@ -24,6 +24,12 @@ dependencies {
 	testImplementation 'org.springframework.security:spring-security-test'
 	implementation 'org.apache.pdfbox:pdfbox:2.0.29'
 	implementation 'org.projectlombok:lombok'
+
+	// JsonWebToken
+	implementation 'io.jsonwebtoken:jjwt:latest.integration'
+	implementation 'io.jsonwebtoken:jjwt-api:latest.integration'
+	implementation 'io.jsonwebtoken:jjwt-impl:latest.integration'
+	implementation 'io.jsonwebtoken:jjwt-jackson:latest.integration'
 }
 
 tasks.named('test') {
